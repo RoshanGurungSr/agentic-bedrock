@@ -3,10 +3,11 @@ name = "agentic-bedrock"
 version = "0.1.0"
 description = "Agentic workflow implementation using LangChain & AWS Bedrock"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.12"
 dependencies = [
     "boto3>=1.42.18",
     "langchain>=1.2.0",
     "langchain-aws>=1.2.0",
     "langgraph>=1.0.5",
+    "pydantic>=2.12.5",
 ]
